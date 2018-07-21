@@ -26,7 +26,7 @@
 		width: 100%;
 	}
 	section {
-		min-height: 500px;
+		min-height: 15px;
 	}
 /*This section that covers the enitre website ends here*/
 
@@ -91,10 +91,15 @@
 		padding-bottom: 25px;
 		padding-right: 15px;
 	}
+	.main-picture {
+		display: block;
+		text-align: center;
+		margin: auto;
+		padding-bottom: 50px;
+	}
 	#main-pic {
 		display: inline-block;
-		padding-left: 350px;
-		padding-top: 400px;
+		padding: 50px;
 		width: 500px;
 		height: 400px;
 		transform: rotate(-90deg);
