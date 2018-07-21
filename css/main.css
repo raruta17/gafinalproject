@@ -20,6 +20,12 @@
 	h3 {
 		text-decoration: underline;
 	}
+	h4 {
+		font-family: 'Merienda', cursive;
+		text-align: center;
+		font-size: 40px;
+		line-height: 0px;
+	}
 	header {
 		display: inline-block;
 		text-align: center;
@@ -36,7 +42,7 @@
 	nav ul li {
 	    display: inline-block;
 	    max-width: 1024px;
-	    padding: 10px 40px 10px 40px;
+	    padding: 10px 50px 10px 50px;
 	}
 	nav ul li a {
 	    text-decoration: none;
@@ -74,13 +80,13 @@
 
 /*About Page Begins*/
 	.about-container {
-		position: static;
+		max-width: 800px;
+		display: block;
+		/*position: static;*/
 		padding-left: 25px;
 		padding-right: 25px;
-		display: inline-block;
-		margin-top: 25px;
+		margin: auto;
 		height: 100%;
-		display: inline-block;
 		line-height: 35px;
 	}
 	.profile-pic {
