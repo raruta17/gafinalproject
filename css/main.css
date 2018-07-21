@@ -149,22 +149,25 @@
 
 /*Resources Page Begins*/
 	.resource-container {
-		min-height: 100%;
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-top: 20px;
-		line-height: 35px;
+		max-width: 800px;
+		margin: auto;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	.resource-container p {
-		padding-top: 45px;
-		margin-left: 10px;
-		margin-right: 20px;
+		padding-top: 25px;
 		text-indent: 2%;
+		/*min-height: 100%;*/
+		line-height: 35px;
 	}
 	.resource-container img {
-		padding-top: 50px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 20px;
+		padding-bottom: 15px;
 		padding-left: 20px;
 		float: right;
+
 	}
 /*Resources Page Ends*/
 
@@ -181,6 +184,8 @@
 		max-width: 750px;
 	}
 	.contact-container p {
+		padding-left: 10px;
+		padding-right: 10px;
 		line-height: 35px;
 	}
 
